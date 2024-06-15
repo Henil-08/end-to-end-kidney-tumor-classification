@@ -1,3 +1,11 @@
-from src.kidneyTumorClassification import logger
+from tumorClassifier import logger
+from tumorClassifier.pipeline.stage_01_dataingestion import DataIngestionTrainingPipeline, STAGE_NAME
 
-logger.info("Welcome to out custom log")
+try:
+    logger.info(f">>>>>> Stage {STAGE_NAME} Started <<<<<<")
+    obj = DataIngestionTrainingPipeline()
+    obj.main()
+    logger.info(f">>>>>> Stage {STAGE_NAME} Completed <<<<<<\n\n")
+except Exception as e:
+    logger.exception(e)
+    raise e
