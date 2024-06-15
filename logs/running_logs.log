@@ -16,3 +16,19 @@
 [2024-06-15 02:14:24,963: INFO: main: >>>>>> stage Data Ingestion completed <<<<<<
 
 ]
+[2024-06-15 16:50:07,272: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-15 16:50:07,290: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-15 16:50:07,305: INFO: common: created directory at: artifacts]
+[2024-06-15 16:50:07,309: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-06-15 16:50:12,921: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-06-15 16:59:34,557: INFO: main: >>>>>> stage Prepare Base Model started <<<<<<]
+[2024-06-15 16:59:34,561: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-15 16:59:34,563: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-15 16:59:34,564: INFO: common: created directory at: artifacts]
+[2024-06-15 16:59:34,565: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-06-15 16:59:35,081: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-06-15 16:59:35,199: INFO: prepare_base: Base Model saved successfully at artifacts\prepare_base_model\base_model.h5]
+[2024-06-15 16:59:35,359: INFO: prepare_base: Base Model updated and saved successfully at artifacts\prepare_base_model\base_model_updated.h5]
+[2024-06-15 16:59:35,361: INFO: main: >>>>>> stage Prepare Base Model completed <<<<<<
+
+]
