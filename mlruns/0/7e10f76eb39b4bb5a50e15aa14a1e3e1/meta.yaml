@@ -1,0 +1,15 @@
+artifact_uri: file:///F:/College/Masters/Summer%202024/Kidney%20Classification/mlruns/0/7e10f76eb39b4bb5a50e15aa14a1e3e1/artifacts
+end_time: 1718514749933
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7e10f76eb39b4bb5a50e15aa14a1e3e1
+run_name: angry-hawk-981
+run_uuid: 7e10f76eb39b4bb5a50e15aa14a1e3e1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1718514736423
+status: 3
+tags: []
+user_id: '91972'
