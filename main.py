@@ -5,15 +5,15 @@ from tumorClassifier.pipeline.stage_03_model_training import ModelTrainingPipeli
 from tumorClassifier.pipeline.stage_04_model_evaluation import ModelEvaluationPipeline
 
 
-# STAGE_NAME = "Data Ingestion"
-# try:
-#     logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
-#     ingest_data = DataIngestionTrainingPipeline()
-#     ingest_data.main()
-#     logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\n")
-# except Exception as e:
-#     logger.exception(e)
-#     raise e
+STAGE_NAME = "Data Ingestion"
+try:
+    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+    ingest_data = DataIngestionTrainingPipeline()
+    ingest_data.main()
+    logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\n")
+except Exception as e:
+    logger.exception(e)
+    raise e
 
 
 STAGE_NAME = "Prepare Base Model"

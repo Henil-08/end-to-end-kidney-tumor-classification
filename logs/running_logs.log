@@ -463,3 +463,42 @@ NameError: name 'model' is not defined
 [2024-06-16 02:38:25,557: INFO: main: >>>>>> stage Model Evaluation completed <<<<<<
 
 ]
+[2024-06-23 00:52:25,344: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion started <<<<<<]
+[2024-06-23 00:52:25,348: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-23 00:52:25,353: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-23 00:52:25,353: INFO: common: created directory at: artifacts]
+[2024-06-23 00:52:25,355: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-06-23 00:52:25,355: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-06-23 00:52:29,444: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-06-23 00:52:30,193: INFO: data_ingestion: Unzipped data to artifacts/data_ingestion]
+[2024-06-23 00:52:30,193: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion completed <<<<<<
+
+]
+[2024-06-23 00:52:49,861: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare Base Model started <<<<<<]
+[2024-06-23 00:52:49,865: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-23 00:52:49,868: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-23 00:52:49,869: INFO: common: created directory at: artifacts]
+[2024-06-23 00:52:49,870: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-06-23 00:52:50,656: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-06-23 00:52:50,927: INFO: prepare_base: Base Model saved successfully at artifacts\prepare_base_model\base_model.h5]
+[2024-06-23 00:52:51,091: INFO: prepare_base: Base Model updated and saved successfully at artifacts\prepare_base_model\base_model_updated.h5]
+[2024-06-23 00:52:51,093: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare Base Model completed <<<<<<
+
+]
+[2024-06-23 00:52:58,948: INFO: stage_03_model_training: >>>>>> stage Model Training started <<<<<<]
+[2024-06-23 00:52:58,951: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-23 00:52:58,952: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-23 00:52:58,953: INFO: common: created directory at: artifacts]
+[2024-06-23 00:52:58,954: INFO: common: created directory at: artifacts\training]
+[2024-06-23 00:57:07,419: INFO: stage_03_model_training: >>>>>> stage Model Training completed <<<<<<
+
+]
+[2024-06-23 00:57:16,009: INFO: stage_04_model_evaluation: >>>>>> stage Model Evaluation started <<<<<<]
+[2024-06-23 00:57:16,012: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-23 00:57:16,014: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-23 00:57:16,015: INFO: common: created directory at: artifacts]
+[2024-06-23 00:57:31,416: INFO: common: json file saved at: scores.json]
+[2024-06-23 00:57:31,416: INFO: common: json file saved at: scores.json]
+[2024-06-23 00:57:31,417: INFO: stage_04_model_evaluation: >>>>>> stage Model Evaluation completed <<<<<<
+
+]
