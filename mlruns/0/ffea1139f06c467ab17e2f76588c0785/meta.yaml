@@ -1,0 +1,15 @@
+artifact_uri: file:///F:/College/Masters/Summer%202024/Kidney%20Classification/mlruns/0/ffea1139f06c467ab17e2f76588c0785/artifacts
+end_time: 1718516885845
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ffea1139f06c467ab17e2f76588c0785
+run_name: amusing-ox-897
+run_uuid: ffea1139f06c467ab17e2f76588c0785
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1718516875075
+status: 3
+tags: []
+user_id: '91972'
