@@ -502,3 +502,16 @@ NameError: name 'model' is not defined
 [2024-06-23 00:57:31,417: INFO: stage_04_model_evaluation: >>>>>> stage Model Evaluation completed <<<<<<
 
 ]
+[2024-06-23 02:02:42,441: INFO: stage_04_model_evaluation: >>>>>> stage Model Evaluation started <<<<<<]
+[2024-06-23 02:02:42,444: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-23 02:02:42,446: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-23 02:02:42,447: INFO: common: created directory at: artifacts]
+[2024-06-23 02:02:57,918: INFO: common: json file saved at: scores.json]
+[2024-06-23 02:02:57,919: INFO: common: json file saved at: scores.json]
+[2024-06-23 02:03:01,121: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-06-23 02:03:02,395: INFO: builder_impl: Assets written to: C:\Users\91972\AppData\Local\Temp\tmpcf08xb6e\model\data\model\assets]
+[2024-06-23 02:03:41,837: WARNING: connectionpool: Retrying (Retry(total=4, connect=5, read=4, redirect=5, status=5)) after connection broken by 'ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)': /Henil-08/end-to-end-kidney-tumor-classification.mlflow/api/2.0/mlflow-artifacts/artifacts/fc062299437b4e87a9711e3044002cbf/540122e5f7774535a0e576ee36252cb9/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2024-06-23 02:03:48,800: WARNING: connectionpool: Retrying (Retry(total=3, connect=5, read=3, redirect=5, status=5)) after connection broken by 'ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)': /Henil-08/end-to-end-kidney-tumor-classification.mlflow/api/2.0/mlflow-artifacts/artifacts/fc062299437b4e87a9711e3044002cbf/540122e5f7774535a0e576ee36252cb9/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2024-06-23 02:04:21,355: INFO: stage_04_model_evaluation: >>>>>> stage Model Evaluation completed <<<<<<
+
+]
