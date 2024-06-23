@@ -515,3 +515,30 @@ NameError: name 'model' is not defined
 [2024-06-23 02:04:21,355: INFO: stage_04_model_evaluation: >>>>>> stage Model Evaluation completed <<<<<<
 
 ]
+[2024-06-23 15:38:33,461: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.144:8080]
+[2024-06-23 15:38:33,461: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-06-23 15:38:39,136: INFO: _internal: 127.0.0.1 - - [23/Jun/2024 15:38:39] "GET / HTTP/1.1" 200 -]
+[2024-06-23 15:38:50,038: INFO: _internal: 127.0.0.1 - - [23/Jun/2024 15:38:50] "GET / HTTP/1.1" 200 -]
+[2024-06-23 15:38:59,664: INFO: _internal: 127.0.0.1 - - [23/Jun/2024 15:38:59] "GET / HTTP/1.1" 200 -]
+[2024-06-23 15:39:49,209: INFO: _internal: 127.0.0.1 - - [23/Jun/2024 15:39:49] "POST /predict HTTP/1.1" 200 -]
+[2024-06-23 15:46:44,987: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.144:8080]
+[2024-06-23 15:46:44,987: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-06-23 15:46:48,404: INFO: _internal: 127.0.0.1 - - [23/Jun/2024 15:46:48] "GET / HTTP/1.1" 200 -]
+[2024-06-23 15:47:27,503: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.144:8080]
+[2024-06-23 15:47:27,504: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-06-23 15:47:42,495: INFO: _internal: 127.0.0.1 - - [23/Jun/2024 15:47:42] "GET / HTTP/1.1" 200 -]
+[2024-06-23 15:49:31,001: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.144:8080]
+[2024-06-23 15:49:31,002: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-06-23 15:49:35,531: INFO: _internal: 127.0.0.1 - - [23/Jun/2024 15:49:35] "GET / HTTP/1.1" 200 -]
