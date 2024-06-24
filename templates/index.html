@@ -96,19 +96,21 @@
             <h3 class="text-center py-4 text-primary">Kidney Tumor Classification</h3>
             <div class="row">
                 <div class="img-part col-md-6">
-                    <div class="image-part border rounded">
-                        <video autoplay id="video" class="w-100 rounded" poster="https://assets.medpagetoday.net/media/images/94xxx/94724.jpg"></video>
-                        <img src="" id="photo" class="w-100 rounded d-none">
-                        <canvas class="d-none" id="canvas"></canvas>
+                    <div class="image-part">
+                        <video autoplay id="video" poster="https://assets.medpagetoday.net/media/images/94xxx/94724.jpg"></video>
+                        <img src="" id="photo">
+                        <canvas class="display:none" id="canvas"></canvas>
                     </div>
                     <div class="btn-part mt-3 text-center">
                         <form id="upload-data" class="pt-3">
-                            <div class="input-group">
-                                <button type="button" class="btn btn-primary mx-2" id="uload">Upload</button>
-                                <button id="send" type="button" class="btn btn-success mx-2">Predict</button>
+                            <div class="input-group mt-3 row">
+                                <div class="input-group mt-3 row">
+									<button type="button" class="btn btn-primary col-md-5 col-xs-5 ml-3 mr-4" id="uload">Upload</button>
+									<button id="send" type="button" class="btn btn-success col-md-5 col-xs-5">Predict</button>
+								</div>
                             </div>
                             <input type="hidden" class="form-control mt-3" id="url" placeholder="Enter REST Api url..." value="../predict"/>
-                            <input name="upload" type="file" id="fileinput" class="d-none"/>
+                            <input name="upload" type="file" id="fileinput" style="position:absolute;top:-500px;"/><br/>
                         </form>
                     </div>
                 </div>
